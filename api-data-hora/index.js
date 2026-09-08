@@ -10,8 +10,8 @@ app.use(cors());
 app.get('/api/datetime', (req, res) => {
   const agora = new Date();
   res.json({
-    data: agora.toLocaleDateString('pt-BR'),
-    hora: agora.toLocaleTimeString('pt-BR')
+    data: agora.toLocaleDateString('pt-BR', { timeZone: 'America/Sao_Paulo' }),
+    hora: agora.toLocaleTimeString('pt-BR', { timeZone: 'America/Sao_Paulo' })
   });
 });
 
