@@ -1,13 +1,13 @@
 {
   "name": "api-data-hora",
   "version": "1.0.0",
-  "description": "",
+  "description": "data-hora",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
-  "author": "",
+  "author": "matheus boff",
   "license": "ISC",
   "type": "commonjs",
   "dependencies": {
